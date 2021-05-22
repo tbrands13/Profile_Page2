@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    font-family: 'Roboto' , sans-serif;
+}
+/*START OF NAV*/
+.nav {
+    background-color: rgb(83, 80, 80);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: rgb(182, 176, 176),;
+    border-radius: 5px;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 962px;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 24px;
+    list-style: none;
+}
+
+.nav-title {
+    display: inline-block;
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: lightskyblue;
+}
+
+a:hover {
+    color: blue;
+}
+
+button {
+    background-color: rgb(15, 115, 148);
+    color: white;
+    box-shadow: 0 8px 16px 0 black;
+    border-radius: 5px;
+}
+
+.active {
+    font-weight: bold;
+}
+/*END OF NAV*/
+.bigBox {
+    /*background-color: aquamarine;*/
+    background-color: white;
+    height: 850px;
+    width: 1000px;
+    border-radius: 5px;
+    padding: 1%;
+}
+/*START OF TOPBOX*/
+.topBox {
+    /*background-color: bisque;*/
+    background-color: white;
+    height: 400px;
+    width: 980px;
+    padding: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1.5em;
+}
+
+section {
+    /*background-color: cadetblue;*/
+    height: 400px;
+    width: 500px;
+    float: left;
+}
+/*START OF CARD*/
+.card {
+    background-color:white;
+    border: 5px solid gray;
+    border-radius: 5px;
+    width: 500px;
+    height: 350px;
+    position: relative;
+}
+
+.bannerBox {
+    background-color: rgb(7, 134, 134);
+    width: 500px;
+    height: 80px;
+}
+
+.mainBox {
+    padding: 1%;
+}
+
+.infoBox {
+    padding: 1%;
+    padding-left: 2%;
+    padding-bottom: 2%;
+}
+
+.locationMarker {
+    height: 24px;
+}
+
+.gear {
+    height: 15px;
+}
+
+.profilePic {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+}
+
+#userCircle {
+    height: 65px;
+    margin-top: 30px;
+    margin-left: 12px;
+
+}
+
+.editProfile {
+    color: blue;
+    text-decoration: underline;
+}
+/*END OF CARD*/
+/*START OF requestBox*/
+aside {
+    /*background-color: pink;*/
+    background-color: white;
+    height: 301px;
+    width: 410px;
+    float: right;
+    border: 5px solid gray;
+    border-radius: 5px;
+}
+/*START OF myRequest*/
+.myRequest {
+    height: 50px;
+    width: 410px;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#twoButton {
+    border: none;
+    border-radius: 50%;
+    background-color: lightgrey;
+    height: 35px;
+    width: 35px;
+    color: black;
+}
+
+/*END of myRequest*/
+/*START OF PEOPLE*/
+.people {
+    display: inline;
+}
+.toddPhil {
+    /*background-color: royalblue;*/
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.actionIcons {
+    /*background-color: yellow;*/
+    height: 80px;
+    width: 200px;
+    float: right;
+    padding-top: 10px;
+}
+.friends {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px
+}
+
+.todd {
+    display: inline;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.phil {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: inline;
+}
+/*END OF TOP BOX*/
+/*START OF LOWER BOX*/
+.lowerBox {
+    height: 400px;
+    width: 980px;
+    /*background-color: blueviolet;*/
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+article {
+    /*background-color: orange;*/
+    background-color: white;
+    height: 250px;
+    width: 500px;
+    float: left;
+    border: 5px solid gray;
+    border-radius: 5px;
+    /*padding-top: -7px;*/
+    /*margin-bottom: 50px;*/
+}
+/*START OF EDUCATION*/
+.eduBanner {
+    height: 50px;
+    width: 500px;
+    background-color: darkgray;
+}
+#date {
+    color: gray;
+}
+/*END OF EDUCATION*/
+/*START OF YOUR CONNECTIONS*/
+.yourConnections {
+    /*background-color: red;*/
+    background-color: white;
+    border: 5px solid gray;
+    border-radius: 5px;
+    height: 450px;
+    width: 400px;
+    float: right;
+    position: absolute;
+    bottom: 50px;
+    left: 525px;
+}
+.connectionBanner {
+    background-color: darkgray;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#myButton {
+    border-radius: 40%;
+    border: none;
+    background-color: lightgray;
+    color: black;
+    height: 25px;
+    width: 55px;
+}
+.connectionList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+.connectPics {
+    /*display: flex;*/
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.connectNames {
+    display: inline-block;
+}
+/*.alayne {
+    display: inline;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+.arry {
+    display: inline;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}*/
